@@ -2,7 +2,7 @@ export default {
     name: 'order',
     type: 'document',
     title: 'Order',
-    fields: [
+      fields: [    
       { name: 'order_id', type: 'string', title: 'Order ID' },
       { name: 'user_id', type: 'reference', to: [{ type: 'user' }], title: 'User' },
       { name: 'status', type: 'string', title: 'Order Status', options: { list: ['pending', 'processing', 'shipped', 'delivered'] } },
