@@ -67,6 +67,86 @@ Participating in the **Marketplace Builder Hackathon 2025** has been an incredib
 
 ---
 
+# Hackathon Day 3: API Integration and Data Migration
+
+## Project: Avion - Premium Furniture Marketplace
+
+Welcome to **Avion**, a marketplace for premium furniture and home decor. Day 3 focuses on **integrating APIs** and **migrating data** into the backend system.
+
+---
+
+## Key Goals
+1. **API Integration**:
+   - Use the API [https://hackathon-apis.vercel.app/api/products](https://hackathon-apis.vercel.app/api/products) to fetch product data.
+   - Populate the Sanity CMS with this data.
+
+2. **Data Migration**:
+   - Validate and structure product data for use in the marketplace.
+
+---
+
+## Schema Overview
+- **Product Schema**:
+  - Fields: `name`, `category`, `price`, `image`, `quantity`, `description`, `tags`, and dimensions.
+- **Category Schema**:
+  - Fields: `name` and `slug`.
+
+---
+
+## Steps to Implement
+1. Set up Sanity CMS and add the product and category schemas.
+2. Fetch product data using the provided API.
+3. Migrate and validate the data in Sanity CMS.
+
+---
+
+# Hackathon Day 4: Building Dynamic Frontend Components for Marketplace
+
+## Project: Avion - Premium Furniture Marketplace
+
+Welcome to **Avion**, a marketplace for premium chairs and furniture designed to redefine comfort and elegance. Day 4 of the hackathon focuses on building dynamic frontend components to enhance the shopping experience for users.
+
+## Key Features Built
+
+### 1. Product List
+- Shows all available products from Sanity CMS.
+- **Highlights**: Mobile-friendly, updates instantly.
+
+---
+
+### 2. Product Details
+- Displays product info like price, description, and specs.
+- **Highlights**: Real-time data, clean design.
+
+---
+
+### 3. Search Function
+- Helps users find products quickly with suggestions.
+- **Highlights**: Fast, accurate results as you type.
+
+---
+
+### 4. Cart System
+- Lets users manage items in their cart.
+- **Highlights**: Add/remove items, live cost updates.
+
+## Final Checklist
+- [x] Responsive design implemented for components.
+- [x] Sanity CMS integrated for dynamic data management.
+- [x] Next.js API routes used for optimized performance.
+- [x] User-friendly interface for seamless shopping.
+
+---
+
+## How to Run the Project
+1. Clone the repository.
+2. Install dependencies using `npm install`.
+3. Run the development server using `npm run dev`.
+4. Open `http://localhost:3000` to view the app in your browser.
+
+---
+
+
 ## 💼 Reflections
 Participating in this hackathon has strengthened my understanding of full-stack development and enhanced my ability to design scalable and user-friendly systems. I look forward to continuing this journey and building a marketplace that delivers real value to its users.
 
