@@ -1,0 +1,7 @@
+Test No.,Feature Evaluated,Anticipated Outcome,Observed Outcome,Status,Priority,Remarks
+T001,Navigation accuracy,Links lead to the correct pages,Successful,Pass,Low,All good
+T002,Product display clarity,Proper rendering of items,Verified,Pass,Medium,Functioning properly
+T003,Dynamic page behavior,Smooth page transitions,Operational,Pass,High,Working as expected
+T004,Cart operations,Effortless add/remove process,Confirmed,Pass,High,No issues
+T005,Login/Sign-Up,In development,Error 404,Fail,Low,Not yet implemented
+T006,Performance standards,Target ≥ 98,Achieved 94,Fail,Medium,Needs optimization
